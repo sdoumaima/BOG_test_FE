@@ -12,7 +12,7 @@
     <ul class="flex lg:mx-auto lg:flex lg:items-center lg:w-auto space-x-6">
       <li>
         <router-link to="/" class="text-sm text-gray-400 hover:text-gray-500">
-          .
+          Home
         </router-link>
       </li>
 
@@ -21,6 +21,7 @@
           to="/users"
           class="text-sm text-gray-400 hover:text-gray-500"
         >
+          Users
         </router-link>
       </li>
 
@@ -29,6 +30,7 @@
           to="/posts"
           class="text-sm text-gray-400 hover:text-gray-500"
         >
+          Posts
         </router-link>
       </li>
     </ul>
