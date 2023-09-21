@@ -11,12 +11,6 @@
 
     <ul class="flex lg:mx-auto lg:flex lg:items-center lg:w-auto space-x-6">
       <li>
-        <router-link to="/" class="text-sm text-gray-400 hover:text-gray-500">
-          .
-        </router-link>
-      </li>
-
-      <li>
         <router-link
           to="/users"
           class="text-sm text-gray-400 hover:text-gray-500"
