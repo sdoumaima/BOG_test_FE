@@ -4,7 +4,7 @@ export default createStore({
   state: {
     users: [],
     posts: [],
-    isLogin: false,
+    isLogin: localStorage.getItem("isLogin") == "true" ? true : false,
   },
 
   getters: {
@@ -20,6 +20,7 @@ export default createStore({
       state.posts = data;
     },
     SET_IS_LOGIN(state, value) {
+      localStorage.setItem("isLogin", value);
       state.isLogin = value;
     },
   },
